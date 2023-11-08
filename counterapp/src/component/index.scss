@@ -1,0 +1,26 @@
+.counter_container {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .alert_message {
+    color: red;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .counter_value {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .Inc {
+    padding: 0px 10px;
+  }
+}
